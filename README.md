@@ -4,12 +4,12 @@
 This project focuses on predicting residential property prices in Ames, Iowa using multiple linear regression models. The aim is to utilise data cleaning, exploratory data analysis (EDA), and model evaluation to provide insights that can optimize real estate sales strategies.
 
 ## Technologies Used
--Python
--Pandas
--NumPy
--Scikit-Learn
--Matplotlib
--Seaborn
+1) Python
+2) Pandas
+3) NumPy
+3) Scikit-Learn
+4) Matplotlib
+5) Seaborn
 
 ## Dataset
 The dataset used for this project is 'ames.csv', which contains detailed information about various residential properties in Ames, Iowa.
