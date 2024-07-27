@@ -14,7 +14,6 @@ This project focuses on predicting residential property prices in Ames, Iowa usi
 ## Dataset
 The dataset used for this project is 'ames.csv', which contains detailed information about various residential properties in Ames, Iowa.
 
-```markdown
 ## Setup and Installation
 1) Clone the repository:
    ```bash
@@ -30,6 +29,7 @@ The dataset used for this project is 'ames.csv', which contains detailed informa
     jupyter notebook notebook/Linear_Regression_Ames.ipynb
     ```
 ## Project Structure
+```markdown
 ames-housing-price-prediction/
 │
 ├── data/
@@ -44,6 +44,7 @@ ames-housing-price-prediction/
 │ └── error_bars_plot.png
 │
 └── requirements.txt
+```
 
 ## Requirements
 The `requirements.txt` file lists all the Python packages required to run the project. Install these dependencies to avoid any compatibility issues.
