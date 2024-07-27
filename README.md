@@ -14,6 +14,7 @@ This project focuses on predicting residential property prices in Ames, Iowa usi
 ## Dataset
 The dataset used for this project is 'ames.csv', which contains detailed information about various residential properties in Ames, Iowa.
 
+```markdown
 ## Setup and Installation
 1) Clone the repository:
    ```bash
@@ -28,20 +29,19 @@ The dataset used for this project is 'ames.csv', which contains detailed informa
    ```bash
     jupyter notebook notebook/Linear_Regression_Ames.ipynb
     ```
-
 ## Project Structure
 ames-housing-price-prediction/
 │
 ├── data/
-│   └── ames.csv
+│ └── ames.csv
 │
 ├── notebook/
-│   ├── Linear_Regression_Ames.ipynb
+│ └── Linear_Regression_Ames.ipynb
 │
 ├── results/
-│   ├── ground_living_area_vs_sale_price.png
-│   ├── garage_area_vs_sale_price.png
-│   ├── error_bars_plot.png: error bars plot for model evaluation.
+│ ├── ground_living_area_vs_sale_price.png
+│ ├── garage_area_vs_sale_price.png
+│ └── error_bars_plot.png
 │
 └── requirements.txt
 
@@ -49,13 +49,10 @@ ames-housing-price-prediction/
 The `requirements.txt` file lists all the Python packages required to run the project. Install these dependencies to avoid any compatibility issues.
 
 ## Results
-MSE: [2835241787.28]
-Relationship between variables and Model performance insights are visualised in ground_living_area_vs_sale_price.png, garage_area_vs_sale_price.png and error_bars_plot.
+1) MSE: [2835241787.28]
+2) Relationship between variables and Model performance insights are visualised in ground_living_area_vs_sale_price.png, garage_area_vs_sale_price.png and error_bars_plot.
 
 ## Conclusion
 1) The relationship between ground living area (in square feet) and sale price, as well as the relationship between garage area and sale price, shows positive correlations. The correlation between ground living area and sale price is stronger.
 2) The MSE value is large, but considering the sale price range (hundreds of thousands), this may not be a major concern.
 3) The error bar plots show that most predicted values are close to the true values, though predictions for outliers are further off.
-
-
-
