@@ -47,7 +47,7 @@ ames-housing-price-prediction/
 ```
 
 ## Requirements
-The `requirements.txt` file lists all the Python packages required to run the project. Install these dependencies to avoid any compatibility issues.
+The `Requirements.txt` file lists all the Python packages required to run the project. Install these dependencies to avoid any compatibility issues.
 
 ## Results
 1) MSE: [2835241787.28]
