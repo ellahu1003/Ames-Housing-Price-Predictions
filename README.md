@@ -17,7 +17,7 @@ The dataset used for this project is 'ames.csv', which contains detailed informa
 ## Setup and Installation
 1) Clone the repository:
    ```bash
-    git clone https://github.com/yourusername/ames-housing-price-prediction.git
+    git clone https://github.com/ellahu1003/ames-housing-price-prediction.git
     cd ames-housing-price-prediction
     ```
 2) Install the required packages:
